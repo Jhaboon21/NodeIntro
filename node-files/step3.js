@@ -48,6 +48,6 @@ if (process.argv[2] === '--out') {
 
 if (path.slice(0, 4) === 'http') {
     webCat(path, out);
-  } else {
+} else {
     cat(path, out);
-  }
+}
